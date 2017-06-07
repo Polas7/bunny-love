@@ -1,0 +1,29 @@
+@media (min-width: 200px) and (max-width: 534px) {
+    [class*="link"] {
+        width: 100%;
+    }
+    #nav{
+        display: flex;
+        flex-direction: column;/*no separar*/
+    }
+    a{
+        font-family: ;
+        background-color: #037f99;
+        color: white;
+        font-size: 20px;
+        border-top-style: solid;
+      }
+    #nav .hola{
+        display: block;
+        color: white;
+        width: 50px;
+        margin-left: 250px;
+        cursor: pointer;
+    }
+    #nav .chao{
+        display: none;
+    }
+    #nav .new{
+        display: block;
+        text-align: left;
+    }
