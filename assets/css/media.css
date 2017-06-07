@@ -7,7 +7,7 @@
         flex-direction: column;/*no separar*/
     }
     a{
-        font-family: ;
+        font-family: 'Baloo Paaji', cursive;
         background-color: #037f99;
         color: white;
         font-size: 20px;
@@ -26,4 +26,12 @@
     #nav .new{
         display: block;
         text-align: left;
+    }
+
+    #imagen1 {
+    margin-top: 100px;
+    background-image: url(../img/img-1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;  
     }

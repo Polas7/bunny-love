@@ -1,15 +1,19 @@
-/*Menu*/
+/*font-family: 'Prompt', sans-serif;
+Menu*/
 body{
+  font-family: 'Prompt', sans-serif;
   margin: 0 auto;
   padding: 0px;
+  background-color: #037f99; 
 }
 #nav {
+  position: absolute;
+  display: flex;
   padding: 1px;
   width: 100%;
-  display: flex;
   justify-content: flex-end;
   position: fixed;
-  font-size: 20px;
+  font-size: 18px;
   background-color: #037f99;
  }
 #nav a{
@@ -31,4 +35,55 @@ body{
 a:hover{
   background-color: pink;
   cursor:pointer;
+}
+
+/* seccion cover*/
+#imagen1 {
+  background-image: url(../img/img-1.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;  
+}
+
+.cuadro{
+    position: absolute;
+    width: 60%;
+    background-color: #038099;
+    height: 400px;
+    margin-top: 200px;
+    margin-left: 320px;
+    text-align: center;
+    opacity: 0.8
+}
+
+.titulo1{
+  margin-top: 60px;
+    width: 90%;
+    font-size: 100px;
+    color: #ff7875;
+    text-align: center;
+}
+
+.titulo2{
+    width: 90%;
+    position: absolute;
+    font-size: 20px;
+    color: white;
+}
+
+
+/* Galeria */
+.title{
+    font-family: 'Baloo Paaji', cursive;
+    text-align: center;
+    color: #ff7875;
+    font-weight: bold;
+}
+.text{
+  text-align: center;
+    background-color: #038099;
+    color: white;
+}
+.content-galery {
+    background-color: #038099;
 }
